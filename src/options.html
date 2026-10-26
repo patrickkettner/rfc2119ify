@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="color-scheme" content="light dark">
+<title>rfc2119ify</title>
+<link rel="stylesheet" href="options.css">
+<form id="modes">
+  <fieldset>
+    <legend>Case for RFC 2119 key words on Bikeshed specs</legend>
+    <label><input type="radio" name="mode" value="upper"> UPPERCASE <output>Clients MUST NOT cache the response. MAY be retried. A body is OPTIONAL but RECOMMENDED.</output></label>
+    <label><input type="radio" name="mode" value="lower"> lowercase <output>Clients must not cache the response. may be retried. A body is optional but recommended.</output></label>
+    <label><input type="radio" name="mode" value="prose"> Prose case, capitalized only to start a sentence <output>Clients must not cache the response. May be retried. A body is optional but recommended.</output></label>
+    <label><input type="radio" name="mode" value="alternating"> aLtErNaTiNg <output>Clients mUsT nOt cache the response. mAy be retried. A body is oPtIoNaL but rEcOmMeNdEd.</output></label>
+    <label><input type="radio" name="mode" value="off"> As the editors wrote it <output>Clients must not cache the response. May be retried. A body is optional but recommended.</output></label>
+  </fieldset>
+</form>
+<script src="options.js"></script>
+</html>

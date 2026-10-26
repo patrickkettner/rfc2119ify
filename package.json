@@ -1,0 +1,14 @@
+{
+  "name": "rfc2119ify",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test --test-concurrency=1 test/e2e.test.mjs",
+    "lint": "web-ext lint --source-dir src",
+    "build": "web-ext build --source-dir src --artifacts-dir dist --overwrite-dest"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.16.0",
+    "web-ext": "^10.8.0"
+  }
+}
